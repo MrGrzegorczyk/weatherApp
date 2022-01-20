@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 
 import java.util.Scanner;
 
-@RequiredArgsConstructor // todo unnecessary
+
 public class UserInterface {
 
     public void run() {
@@ -17,7 +17,7 @@ public class UserInterface {
             System.out.println("Welcome to Brand New Weather App");
 
             System.out.println("Choose one option");
-            System.out.println("1: Add new location to database"); // todo just 'add new location', our user doesn't need to know about the database
+            System.out.println("1: Add new location to database");
             System.out.println("2: Show all locations");
             System.out.println("3: Download forecast data");
             System.out.println("0: Close app");
